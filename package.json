@@ -1,0 +1,19 @@
+{
+  "name": "node_tutotials",
+  "version": "1.0.0",
+  "description": "basic tutorial with routes, render partial",
+  "main": "app.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "ejs": "^2.5.7",
+    "express": "^4.15.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Maimit Patel",
+  "license": "ISC"
+}
