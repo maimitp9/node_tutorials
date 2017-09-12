@@ -6,32 +6,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Welcome</title>
-    <style>
-        body {
-            background: skyblue;
-        }
-        
-        h1 {
-            text-transform: uppercase;
-            font-size: 48px;
-            color: #ffffff;
-            padding: 30px;
-            text-align: center;
-        }
-        
-        p {
-            color: #ffffff;
-            text-align: center;
-            font-size: 16px;
-        }
-    </style>
+    <link rel="stylesheet" href="/assets/style.css">
 </head>
 
 <body>
-    <% include partials/nav %>
+    <div>
+        <% include partials/nav %>
         <h1>Welcome to Contact us</h1>
         <p>Name: Maimit Patel</p>
         <p>Contact No.: +91-9824341494</p>
+    </div>
+    <div>
+        <h3>Contact Form</h3>
+        <form action="/contact" method="POST">
+            <label>Username</label><br>
+            <input type="text" name="username"/><br>
+            <label>Department</label><br>
+            <input type="text" name="dept"/><br>
+            <label>Email</label><br>
+            <input type="email" name="email"/><br>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
 </body>
 
 </html>
